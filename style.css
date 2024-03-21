@@ -1,0 +1,92 @@
+
+      body {
+        margin: 0;
+        padding: 0;
+       background-color: rgb(39, 39, 39);  
+      }
+
+      .header {
+        border-bottom: 1px solid rgb(161, 159, 159);
+      }
+
+      .header-1 {
+        color: white;
+        font-size: 25px;
+      }
+      .header-2 {
+        color: white;
+        font-size: 25px;
+        background: linear-gradient(
+          to right,
+
+          #12c2e9,
+          #c471ed,
+          #f64f59
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      .label {
+        color: white;
+      }
+      .footer {
+        margin-top: 15%;
+      }
+      .text {
+        position: relative;
+      
+      }
+      .button {
+        position: absolute;
+        right: 1%;
+        bottom: 16%;
+        border-radius: 30px;
+        width: 40px;
+        background-color: rgb(90, 155, 228);
+      }
+
+      .button:hover {
+        background-color: blue;
+      }
+
+      .form-floating {
+        position: relative;
+      }
+
+      .icon-textarea {
+        position: absolute;
+        top: 25px;
+        left: 1.25rem;
+        color: white;
+      }
+
+      .main{
+        
+        font-weight: bold;
+        font-size: 30px;
+      }
+      .icon{
+        color:white;
+      }
+      .reaction{
+        display:flex;
+        justify-content: center;
+      
+       
+      }
+     
+      
+      .button-react{
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+      }
+
+      .button-react:hover{
+        background-color: red;
+      }
+      p::selection{
+        background-color: tomato;
+        }
+   
